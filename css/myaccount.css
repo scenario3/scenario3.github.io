@@ -2,11 +2,14 @@ body {
 
   min-height: 2000px;
   padding-top: 70px;
-  background-color: #eee;
+  background-color: #1B4B77;
 }
 
 .navbar-custom {
-  background-color: #CFCFCF;
+  background-color: #949EA7;
+  color: #000;
+}
+.navbar-brand {
   color: #000;
 }
 
@@ -17,7 +20,7 @@ h10 {
 }
 
 .jumbotron {
-  background-color: #CFCFCF;
+  background-color: #949EA7;
   border-radius: 20px;
 
 }
@@ -27,13 +30,13 @@ font-size: 20px;
 }
 
 .btn-custom {
-    background-color: #CFCFCF;
-    border-color: #CFCFCF;
+    background-color: #949EA7;
+    border-color: #949EA7;
     color: #333333;
  }
 
  .btn-custom:hover {
-   background-color: #CFCFCF;
-   border-color: #CFCFCF;
+   background-color: #949EA7;
+   border-color: #949EA7;
    color: white;
 }

@@ -2,7 +2,7 @@ body {
 
   min-height: 2000px;
   padding-top: 70px;
-  background-color: #eee;
+  background-color: #1B4B77;
 }
 
 
@@ -12,12 +12,24 @@ h10 {
 }
 
 .jumbotron {
-  background-color: #CFCFCF;
+  background-color: #949EA7;
   border-radius: 20px;
 
 
 }
 .navbar-custom {
-  background-color: #CFCFCF;
+  background-color: #949EA7;
   color: #000;
+}
+
+.navbar-brand {
+  color: #000;
+}
+
+.smoothScroll {
+  color: #000;
+
+}
+test {
+  color: black;
 }

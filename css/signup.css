@@ -1,5 +1,5 @@
 body{
-    background-color: #eee;
+    background-color: #1B4B77;
 }
 .centered-form{
 	margin-top: 60px;
@@ -7,7 +7,7 @@ body{
 }
 
 .centered-form .panel{
-	background: rgba(255, 255, 255, 0.8);
+	background: #949EA7;
 	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
   border-radius: 20px;
 }
@@ -17,5 +17,6 @@ body{
 }
 
 .panel-heading {
+  
   border-radius: 20px;
 }
