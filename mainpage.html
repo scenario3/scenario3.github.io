@@ -88,16 +88,17 @@
 
       <div class="jumbotron">
         <h10>Add Citations</h10>
-        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Title"> <br>
-        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Link"> <br>
+        <input type="text" name="title" id="title" class="form-control" placeholder="Title"> <br>
+        <input type="text" name="link" id="link" class="form-control" placeholder="Link"> <br>
          <textarea class="form-control" rows="5" id="comment", placeholder="Notes"></textarea> <br>
 
         <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Submit Reference</a>
+          <a class="btn btn-lg btn-primary" href="#" onclick="getRefDetails()" role="button"  >Submit Reference</a>
         </p>
       </div>
-      <section id="myRefs" name="myRefs"></section>
 
+
+      <section id="myRefs" name="myRefs"></section>
       <div class="jumbotron">
         <h10>My References</h10>
         <p>References shown here</p>
@@ -113,6 +114,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
