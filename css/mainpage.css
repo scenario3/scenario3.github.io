@@ -1,0 +1,22 @@
+body {
+
+  min-height: 2000px;
+  padding-top: 70px;
+  background-color: #eee;
+}
+
+
+
+h10 {
+  font-size: 30px;
+}
+
+.jumbotron {
+  background-color: #CFCFCF;
+  border-radius: 20px;
+
+}
+.navbar-custom {
+  background-color: #CFCFCF;
+  color: #000;
+}

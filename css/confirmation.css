@@ -1,0 +1,11 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.maintext {
+  padding-top: 40px;
+  background-color: blue;
+  font-style: 50px;
+}
