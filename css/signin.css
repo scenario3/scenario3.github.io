@@ -11,13 +11,19 @@ h2 {
   color: white;
 }
 .form-signin {
-  max-width: 330px;
+  max-width: 440px;
   padding: 15px;
   margin: 0 auto;
+}
+.form-signin-heading {
+  text-align: center;;
+
+
 }
 .form-signin .form-signin-heading{
   color: white;
 }
+
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
 
