@@ -44,3 +44,7 @@ function getNewDetails() {
     "passwordConf": passwordConf
   };
 }
+
+$(function () {
+                $('#datetimepicker4').datetimepicker();
+            });
