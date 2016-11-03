@@ -57,7 +57,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li  class="smoothScroll"> <a href="#myRefs" href="mainpage.html">My References</a></li>
-            <li class="smoothScroll" id = "test"><a href="#addRef">Add Reference</a></li>
+            <li class="smoothScroll" id = "test"><a href="#overview">My Dashboard</a></li>
 
 
             <!-- <li class="dropdown">
@@ -102,6 +102,8 @@
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add a reference</button>
         <a href="#myRefs" class="btn btn-info btn-lg" onclick="getAccountDetails()" role="button">My references </a>
         <a href="myaccount.html" class="btn btn-info btn-lg" onclick="getAccountDetails()" role="button">View Account </a>
+        <a href="myaccount.html" class="btn btn-info btn-lg" onclick="getAccountDetails()" role="button">Sign out </a>
+
 
 
       </p>
@@ -122,6 +124,8 @@
         <label for="title">Reference Title:</label>
         <input type="text" name="title" id="title" class="form-control" placeholder="Title"> <br>
         <label for="link">Reference Link:</label>
+        <input type="text" name="link" id="link" class="form-control" placeholder="Link"> <br>
+        <label for="comment">Reference Comments:</label>
         <input type="text" name="link" id="link" class="form-control" placeholder="Link"> <br>
         <label for="comment">Reference Comments:</label>
          <textarea class="form-control" rows="5" id="comment", placeholder="Notes"></textarea> <br>
