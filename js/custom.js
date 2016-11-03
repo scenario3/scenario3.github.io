@@ -14,6 +14,7 @@ function getRefDetails() {
   var refTitle = document.getElementById('title').value;
   var refLink = document.getElementById('link').value;
   var refComment = document.getElementById('comment').value;
+  prompt("Test");
 
   var refDetails =
   {
