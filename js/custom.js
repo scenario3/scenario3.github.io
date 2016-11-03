@@ -22,6 +22,10 @@ function getRefDetails() {
     "refComment": refComment
   };
 }
+function changeDetails() {
+  prompt("Change name");
+
+}
 
 function getNewDetails() {
   var firstName = document.getElementById('first_name').value;
