@@ -18,7 +18,7 @@ h10 {
 
 }
 .jumbotron {
-  background-color: #7EC58E;
+  background-color: #E0EEE4;
   padding-top: 43px;
 
   border-radius: 20px;
@@ -26,7 +26,7 @@ h10 {
 
 }
 .navbar-custom {
-  background-color: #7EC58E;
+  background-color: #E0EEE4;
 
   color: #000;
 }
@@ -68,7 +68,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #7EC58E;
+  background-color: #E0EEE4;
 }
 
 
