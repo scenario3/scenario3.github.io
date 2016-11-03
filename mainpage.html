@@ -56,8 +56,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="smoothScroll" id = "test"><a href="#addRef">Add Reference</a></li>
             <li  class="smoothScroll"> <a href="#myRefs" href="mainpage.html">My References</a></li>
+            <li class="smoothScroll" id = "test"><a href="#addRef">Add Reference</a></li>
+
 
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">In case dropdown <span class="caret"></span></a>
@@ -84,13 +85,139 @@
     <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
+      <section id="overview" name="overview"></section>
+      <div class="jumbotron">
+        <h10>At a glance</h10>
+        <p> Can add the number of references stored here </p>
+        <p>
+        </p>
+      </div>
+
+      <section id="myRefs" name="myRefs"></section>
+      <div class="jumbotron">
+        <h10>My References</h10>
+        <!-- Responsive table starts here -->
+
+<!-- For correct display on small screens you must add 'data-title' to each 'td' in your table -->
+<div class="table-responsive-vertical shadow-z-1">
+<!-- Table starts here -->
+<table id="table" class="table table-hover table-mc-light-blue">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Reference</th>
+        <th>Link</th>
+        <th>Notes</th>
+        <th>Notes</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-title="ID">1</td>
+        <td data-title="Ref">Example Title</td>
+        <td data-title="Link">
+          <a href="www.google.com" target="_blank">www.google.com</a>
+        </td>
+        <td data-title="Notes">Some notes here</td>
+        <td <button type="button" class="btn btn-custom" aria-label="Left Align">
+          <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+        </button> </h11></td>
+
+      </tr>
+      <tr>
+        <td data-title="ID">2</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+        <td <button type="button" class="btn btn-custom" >
+          <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+        </button> </h11></td>
+      </tr>
+      <tr>
+        <td data-title="ID">3</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+        <td <button type="button" class="btn btn-custom" >
+          <span class="glyphicon glyphicon-trash" ></span>
+        </button> </h11></td>
+      </tr>
+      <tr>
+        <td data-title="ID">4</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+      </tr>
+      <tr>
+        <td data-title="ID">5</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+      </tr>
+      <tr>
+        <td data-title="ID">6</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+      </tr>
+      <tr>
+        <td data-title="ID">7</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+      </tr>
+      <tr>
+        <td data-title="ID">8</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+      </tr>
+      <tr>
+        <td data-title="ID">9</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+      </tr>
+      <tr>
+        <td data-title="ID">10</td>
+        <td data-title="Ref"></td>
+        <td data-title="Link">
+          <a href="#" target="_blank"></a>
+        </td>
+        <td data-title="Notes"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+</div>
       <section id="addRef" name="addRef"></section>
 
       <div class="jumbotron">
         <h10>Add Citations</h10>
+        <div class = "fields" >
         <input type="text" name="title" id="title" class="form-control" placeholder="Title"> <br>
         <input type="text" name="link" id="link" class="form-control" placeholder="Link"> <br>
          <textarea class="form-control" rows="5" id="comment", placeholder="Notes"></textarea> <br>
+       </div>
 
         <p>
           <a class="btn btn-lg btn-primary" href="#" onclick="getRefDetails()" role="button"  >Submit Reference</a>
@@ -98,13 +225,18 @@
       </div>
 
 
-      <section id="myRefs" name="myRefs"></section>
-      <div class="jumbotron">
-        <h10>My References</h10>
-        <p>References shown here</p>
+
+
         <p>
         </p>
       </div>
+
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted"> &copy; 2016  Made with love by Matt and the team <3 </p>
+        </div>
+      </footer>
+
     </div> <!-- /container -->
 
 

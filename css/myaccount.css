@@ -6,7 +6,7 @@ body {
 }
 
 .navbar-custom {
-  background-color: #949EA7;
+  background-color: #7EC58E;
   color: #000;
 }
 .navbar-brand {
@@ -20,7 +20,7 @@ h10 {
 }
 
 .jumbotron {
-  background-color: #949EA7;
+  background-color: #7EC58E;
   border-radius: 20px;
 
 }
@@ -30,13 +30,24 @@ font-size: 20px;
 }
 
 .btn-custom {
-    background-color: #949EA7;
-    border-color: #949EA7;
+    background-color: #7EC58E;
+    border-color: #7EC58E;
     color: #333333;
  }
 
  .btn-custom:hover {
-   background-color: #949EA7;
-   border-color: #949EA7;
+   background-color: #7EC58E;
+   border-color: #7EC58E;
    color: white;
+}
+
+.footer {
+  position: absolute;
+  padding-top: 10px;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #7EC58E;
 }

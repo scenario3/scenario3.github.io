@@ -11,14 +11,24 @@ h10 {
   font-size: 30px;
 }
 
+.table-responsive-vertical {
+  padding-top: 30px;
+}
+.fields {
+  padding-top: 30px;
+
+}
 .jumbotron {
-  background-color: #949EA7;
+  background-color: #7EC58E;
+  padding-top: 43px;
+
   border-radius: 20px;
 
 
 }
 .navbar-custom {
-  background-color: #949EA7;
+  background-color: #7EC58E;
+
   color: #000;
 }
 
@@ -33,3 +43,36 @@ h10 {
 test {
   color: black;
 }
+
+.btn-custom {
+    color: #333333;
+ }
+
+ .btn-custom:hover {
+   color: #9FA9A2;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  padding-top: 10px;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #7EC58E;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
