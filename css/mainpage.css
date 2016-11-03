@@ -76,6 +76,14 @@ body {
   text-align: center;
 }
 
+.modal  {
+  background-color: rgba(126, 128, 126, 0.9);;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.7);;
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
